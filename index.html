@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html class="has-navbar-fixed-top">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:url" content="https://atelierbasi.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="atelier basi" />
+    <meta property="og:description" content="熱意ある学生が自分らしい進路を選択できる社会を目指す、atelier basiです。" />
+    <meta property="og:site_name" content="atelier basiのホームページ" />
+    <meta property="og:image" content="http://atelierbasi.sakura.ne.jp/img/thumbnail2.jpg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="http://atelierbasi.sakura.ne.jp/img/thumbnail2.jpg" />
+
+    <title>atelier basi</title>
+    <meta name="description" content="熱意ある学生が自分らしい進路を選択できる社会を目指す、atelier basiです。" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="img/logoSquare.png" />
+    <script src="https://kit.fontawesome.com/0c97f811dc.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HG8F9P4GT3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "G-HG8F9P4GT3");
+    </script>
+</head>
+
+<body>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div id="logo">
+            <a href="index.html"><img src="img/logo.png" width="182" /></a>
+        </div>
+        <!--navbar menuやらなんやら後ほど入れる-->
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html"> Home</a>
+                <a class="navbar-item" href="about/index.html"> About </a>
+                <a class="navbar-item" href="team/index.html"> Team </a>
+                <a class="navbar-item is-hidden-widescreen is-hidden-desktop-only" href="support/index.html"> Support </a>
+                <a class="navbar-item" href="contact/index.html"> Contact </a>
+                <a class="navbar-item has-text-link" target="_blank" href="https://atelier-basi.themedia.jp/">
+                    <i class="fas fa-external-link-alt"></i> Blog
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item is-hidden-touch" href="support/index.html">
+                    <button class="button is-rounded is-hidden-touch">
+                        <span class="icon is-small">
+                        <i class="fa fa-cloud" aria-hidden="true"></i>
+                        </span>
+                        <span>Support</span>
+                    </button>
+                </a>
+                <a class="navbar-item is-hidden-touch" href="https://twitter.com/AtelierBasi">
+                    <i class="fab fa-twitter-square"></i>
+                </a>
+                <a class="navbar-item is-hidden-touch" href="https://www.facebook.com/atelierbasi/">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section is-primary" id="home-top">
+        <div class="columns is-fullheight is-vcentered">
+            <div class="column is-1 is-hidden-touch"></div>
+            <div class="column basi-img-top-container is-hidden-desktop is-hidden-tablet-only">
+                <div class="basi-img-container is-centered">
+                    <div class="image basi-img"></div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="title">
+                    We <span class="under-blue">demystify</span> admissions
+                </div>
+                <div class="subcatchcopy japanese">
+                    全国各地の熱意のある学生が環境に負けない進学が出来るよう、海外大学への学部進学を無償でサポートする。それが私たちatelier basiの使命です。
+                </div>
+                <a href="./about/index.html">
+                    <div class="discover is-vcentered">
+                        <img src="./img/play-circle.svg" />
+                        <div class="discover-line"></div>
+                        <div>DISCOVER</div>
+                    </div>
+                </a>
+            </div>
+            <div class="column basi-img-top-container is-hidden-touch">
+                <div class="basi-img-container">
+                    <div class="image basi-img"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" id="apply-section">
+        <div class="has-text-centered japanese apply-text">
+            <!-- 2021年度受講生の募集は終了しました。 -->
+            2022年度受講生の募集を開始しました！
+            <a class="apply-text" href="./apply/index.html"><br />詳細はこちら</a>
+        </div>
+    </section>
+    <section class="section is-medium" id="home-second">
+        <div class="subtitle has-text-centered english">
+            <span class="under-blue">Our program</span>
+        </div>
+
+        <div class="columns has-text-centered">
+            <div class="column is-1"></div>
+            <div class="column">
+                <img class="program-img" src="./img/Essayediting.png" />
+                <div class="title is-4">Essay Review</div>
+                <div class="subtext japanese is-4">
+                    海外大学の受験に欠かせないパーソナルエッセイを書くにあたり、表現力を高めることを目的に、対話を重ねながら構想から仕上げまでの過程を伴走しています。
+                </div>
+            </div>
+            <div class="column">
+                <img class="program-img" src="./img/Mentoring.png" />
+                <div class="title is-4">Mentoring</div>
+                <div class="subtext japanese is-4">
+                    定期的な面談を通して日々の中で生まれる様々な悩みを共に解決し、将来に対する現実的な目的意識を育むことで、大学進学の先を見据えた姿勢作りに注力しています。
+                </div>
+            </div>
+            <div class="column">
+                <img class="program-img" src="./img/Community2.png" />
+                <div class="title is-4">Community</div>
+                <div class="subtext japanese is-4">
+                    同じ目標に向かって突き進みながら互いに刺激しあえる、全国各地の仲間とオンライン上で繋がる場を全員で作り上げています。
+                </div>
+            </div>
+            <div class="column">
+                <img class="program-img" src="./img/Sessions.png" />
+                <div class="title is-4">Regular Sessions</div>
+                <div class="subtext japanese is-4">
+                    創造性を育むワークショップや受験の対策講座、リベラルアーツ講座、海外の大学生との交流会など、幅広いコンテンツを展開するセッションをオンラインで実施しています。
+                </div>
+            </div>
+            <div class="column is-1"></div>
+        </div>
+    </section>
+
+    <section class="section is-medium white-text" id="home-third">
+        <div class="columns">
+            <div class="column is-1"></div>
+            <div class="column">
+                <div class="subtitle english text-blue">
+                    Our mentee’s achievements
+                </div>
+                <div class="japanese subcatchcopy">2020-2021年度の実績</div>
+            </div>
+            <div class="column">
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-4">
+                                <i class="fas fa-glasses program-img"></i>
+                            </div>
+                            <div class="column">
+                                <div class="title is-2 white-text">2000+</div>
+                                <div class="subcatchcopy is-4">Minutes of Sessions</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-4">
+                                <i class="fas fa-book-open program-img"></i>
+                            </div>
+                            <div class="column">
+                                <div class="title is-2 white-text">700+</div>
+                                <div class="subcatchcopy is-4">Essays Edited</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-4">
+                                <i class="fas fa-graduation-cap program-img"></i>
+                            </div>
+                            <div class="column">
+                                <div class="title is-2 white-text">30+</div>
+                                <div class="subcatchcopy is-4">College Acceptances</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column is-4">
+                                <i class="far fa-comments program-img"></i>
+                            </div>
+                            <div class="column">
+                                <div class="title is-2 white-text">45k</div>
+                                <div class="subcatchcopy is-4">Slack Messages</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-1"></div>
+        </div>
+    </section>
+
+    <section class="section is-medium subtext" id="home-forth">
+        <div class="subtitle has-text-centered english">
+            <span class="under-blue">Q&A</span>
+        </div>
+        <div class="japanese">
+
+            <button class="accordion">団体名はどういう由来ですか？</button>
+            <div class="accordionAfter">
+                <p>
+                    私たちは個性・創造性を育みながら、次の段階への基盤を確立して欲しいという願いをこめて、atelier ― 芸術工房 basi ― 基盤 からatelier basi(アトリエ バシ) と命名しました。
+                </p>
+            </div>
+            <button class="accordion">受講料は本当に無料ですか？</button>
+            <div class="accordionAfter">
+                <p>
+                    はい。atelier basi は無償で受講生にエッセイ添削など、様々なプログラムを提供しております。
+                </p>
+            </div>
+            <button class="accordion">
+        受講料は無料とのことですが、団体の運営資金はどこから来ていますか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    クラウドファンディングを含め、多くの方々の寄付で成り立っております。
+                </p>
+            </div>
+
+            <button class="accordion">
+        プログラムに参加したいのですが、パソコンは必要ですか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    昨年度は携帯のみで参加した受講生もいましたが、Zoom・Slack等のツールを頻繁に使うため、パソコンおよびインターネット環境の整備を推奨しています。
+                </p>
+            </div>
+
+
+
+            <button class="accordion">セッションはどのくらいの頻度で、どのように開催されますか？</button>
+            <div class="accordionAfter">
+                <p>一週間に一回程度、オンラインで行われます。</p>
+            </div>
+
+            <button class="accordion">
+        セッションは、毎週何時に開催されますか。
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    受講生の予定を確認しつつ、毎週柔軟に対応していきたいと考えております。
+                </p>
+            </div>
+            <button class="accordion">
+        これまでの受講生はどのような総合大学に合格していますか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    昨年度は、Boston University, Case Western Reserve University, Columbia University, Georgia Institute of Technology, Stanford University, University of California Berkeley, University of California Los Angeles, University of California San Diego, University
+                    of California Santa Barbara, University of Michigan, University of Toronto, Tilburg University, University of Amsterdam, University of Twente, 東京大学, 慶應義塾大学(SFC, PEARL), 早稲田大学 などに合格しています。
+                </p>
+            </div>
+
+            <button class="accordion">
+        これまでの受講生はどのようなリベラルアーツ大学に合格していますか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    昨年度は、Albion College, Amherst College, Aquinas College, Harvey Mudd College, Middlebury College, New York University Abu Dhabi, Oberlin College, Swarthmore College, Wellesley College, Wesleyan University　などに合格しています。
+                </p>
+            </div>
+
+            <button class="accordion">
+        来年度の受講生募集はいつ頃に開始する予定ですか？
+      </button>
+            <div class="accordionAfter">
+                <p>四月中旬に受講生の募集を開始する予定です。詳細はウェブサイト、公式Twitter及びFacebookページにてお知らせいたします。
+                </p>
+            </div>
+            <button class="accordion">
+        アメリカの大学志望の学生のみが対象になりますか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    昨年度はアメリカの大学への進学を志望する受講生が多く、合格校・進学予定校ともにアメリカが高い割合を占めています。ただし、アメリカの大学に限定していることはなく、幅広く海外の大学への進学を可能な限りサポートできる体制も整えているので、ご相談いただければ幸いです。
+                </p>
+            </div>
+
+
+            <button class="accordion">
+        非英語圏の大学志望なのですがatelier
+        basiに応募することは可能でしょうか?
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    非英語圏の大学にて授業が英語で開催される場合は応募可能です。詳細・個別の状況に関しては可能な限り柔軟に対応させて頂きたいと思います。
+                </p>
+            </div>
+            <button class="accordion">
+        現在大学生で交換留学や大学院留学を考えています。プログラムを受講することは可能でしょうか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    現在は海外大学への学部正規留学を希望する学生を参加対象者としており、交換留学、大学院留学に関してはサポートしかねます。
+                </p>
+            </div>
+
+            <button class="accordion">応募の締め切りを過ぎていることを承知していますが、どうしてもプログラムに参加したいです。
+      </button>
+            <div class="accordionAfter">
+                <p>募集期間外の受講生の募集は行っておりません。お問い合わせを頂いても検討しかねますのでご了承ください。受講生外の皆さんの参考になるようatelier basiの公式ブログで進学情報を随時発信して参りますので、そちらを参考にしていただけますと幸いです。
+                </p>
+            </div>
+
+
+            <button class="accordion">atelier basiの活動を応援したいのですが、支援の方法を教えてください。
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    atelier basiの活動にご興味を持っていただきありがとうございます。随時ご寄付・ご協賛・プロボノを募集しておりますので、Contactページよりその旨をお伝えいただければ、詳細などについて折り返しメールを差し上げます。ご連絡を心よりお待ちしております。
+                </p>
+            </div>
+
+            <button class="accordion">海外大学への受験経験があるのですが、メンターとして活動することは可能でしょうか？
+      </button>
+            <div class="accordionAfter">
+                <p>
+                    atelier basiの活動にご興味を持っていただきありがとうございます。大変申し訳ございませんが、現在メンターの募集は行っておりません。
+                </p>
+            </div>
+
+
+            <button class="accordion">受講生となった場合、受験終了後のメンターとしての活動を約束しなければなりませんか？
+      </button>
+            <div class="accordionAfter">
+                <p>受験終了後のメンターとしての活動は義務ではありません。日本全国の海外学部正規留学を志す学生を応援したいという思いを持つ有志がメンターを務めております。
+                </p>
+            </div>
+
+            <button class="accordion">受講生となった場合、受験終了後のメンターとしての活動を約束しなければなりませんか？
+      </button>
+            <div class="accordionAfter">
+                <p>受験終了後のメンターとしての活動は義務ではありません。日本全国の海外学部正規留学を志す学生を応援したいという思いを持つ有志がメンターを務めております。
+                </p>
+            </div>
+        </div>
+
+
+        <button class="accordion">来年の応募時期はいつですか？
+    </button>
+        <div class="accordionAfter">
+            <p>来年度の応募時期はまだ決定しておりません。しかしながら、今年度、昨年度は4月ごろに募集を開始致しましたので、来年度も継続してその方針をとる可能性が高いです。
+            </p>
+        </div>
+
+        <button class="accordion">対象年齢は何歳ですか？
+    </button>
+        <div class="accordionAfter">
+            <p>１年以上に海外大学の学部出願を控える方（高３生、既卒生）を対象にしております。
+            </p>
+        </div>
+    </section>
+
+    <section class="section is-medium subtext columns" id="home-fifth">
+        <div class="column is-1"></div>
+        <div class="column has-text-centered">
+            <a class="twitter-timeline" data-height="600" data-width="600" data-theme="dark" href="https://twitter.com/AtelierBasi?ref_src=twsrc%5Etfw">Tweets by AtelierBasi</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="column has-text-centered">
+            <div class="fb-page" data-href="https://www.facebook.com/atelierbasi/" data-tabs="timeline" data-width="600" data-height="600" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/atelierbasi/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/atelierbasi/">atelier basi</a>
+                </blockquote>
+            </div>
+        </div>
+        <div class="column is-1"></div>
+    </section>
+</body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v10.0" nonce="GH1mDQML"></script>
+<script type="module" src="home.js"></script>
+<footer class="footer">
+    <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">
+            <img src="./img/logo.png" width="182" />
+        </div>
+        <div class="column"></div>
+    </div>
+    <div class="content">
+        <div class="columns">
+            <div class="column is-1"></div>
+            <div class="column">
+                <div class="columns">
+                    <a class="column footer-item" href="about/index.html"> About </a>
+                    <a class="column footer-item" href="team/index.html"> Team </a>
+                    <a class="column footer-item" href="../support/index.html"> Support </a>
+                    <a class="column footer-item" href="contact/index.html">
+            Contact
+          </a>
+                    <a class="column footer-item" target="_blank" href="https://atelier-basi.themedia.jp/">
+                        <i class="fas fa-external-link-alt"></i> Blog
+                    </a>
+                </div>
+            </div>
+            <div class="column is-3"></div>
+            <div class="column"></div>
+        </div>
+    </div>
+    <div class="columns">
+        <div class="column is-1"></div>
+        <div class="column">©atelier basi 2021</div>
+        <div class="column"></div>
+    </div>
+</footer>
+
+</html>

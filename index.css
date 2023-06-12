@@ -1,0 +1,273 @@
+body {
+  font-family: "Manrope", sans-serif;
+  color: black;
+}
+
+.japanese {
+  font-family: "Kiwi Maru", serif;
+}
+
+.under-blue {
+  background: linear-gradient(transparent 70%, #bde2ff 70%);
+}
+
+.under-yellow {
+  background: linear-gradient(transparent 70%, #ffe37d 70%);
+}
+
+.text-yellow {
+  color: #ffe37d;
+}
+.text-blue {
+  color: #bde2ff;
+}
+.white-text {
+  color: #f8f8f8;
+}
+
+#logo {
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+}
+
+.navbar-start {
+  padding-left: 2rem;
+}
+.navbar-end {
+  padding-right: 1rem;
+}
+.navbar {
+  box-shadow: 0px 4px 4px rgba(153, 153, 153, 0.25);
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar-item .is-rounded {
+  background: #82bec7 !important;
+  background: #a6d2f4!important;
+  color: white;
+  border-color: transparent !important;
+}
+
+.full-height {
+  height: 100%;
+}
+.fab {
+  font-size: 1.4rem;
+}
+.title {
+  font-weight: 800;
+  font-size: 72px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 48px;
+}
+.subtitle.english {
+  font-weight: 600;
+  font-size: 48px;
+}
+.subtitle.japanese {
+  font-weight: 400;
+  font-size: 32px;
+}
+.subcatchcopy {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.subtext {
+  font-size: 15px;
+  line-height: 22px;
+}
+.navbar-burger {
+  margin-left: 0;
+}
+
+/* ---------------- */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #f8f8f8;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #fff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.accordionAfter {
+  margin: 0;
+  background-color: #f0ebeb;
+  display: none;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.accordion:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  color: #e7e7e7;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.discover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+
+  position: static;
+}
+
+.discover-line {
+  position: static;
+  width: 100px;
+  margin: 10px;
+  border: 2px solid #18192f;
+}
+
+.basi-img-container {
+  height: 80vh;
+}
+.basi-img {
+  background-image: url(./img/atelierbasi.png);
+  right: -10%;
+  top: -10%;
+  height: 100vh;
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.program-img {
+  width: 10vw;
+  font-size:4vw;
+}
+
+#apply-section{
+  background-color: #ffe37d;
+}
+
+.apply-text{
+  color:#685d34;
+  font-size: 2rem;
+}
+
+.apply-text>.apply-text{
+    text-decoration: underline;
+}
+#home-second {
+  background-color: #f8f8f8;
+}
+
+#home-second .subtitle {
+  margin-bottom: 2%;
+}
+
+#home-third {
+  background-color: #5c5c5c;
+}
+
+#home-third .title {
+  margin-bottom: 0px;
+}
+#home-forth {
+  background-color: #ececec;
+}
+.footer-item {
+  color: black;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar-start {
+    padding-left: 2rem;
+  }
+  .navbar-end {
+    padding-right: 1rem;
+  }
+  .navbar {
+    box-shadow: 0px 4px 4px rgba(153, 153, 153, 0.25);
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+  }
+
+  .full-height {
+    height: 100%;
+  }
+  .fab {
+    font-size: 1.4rem;
+  }
+  .title {
+    font-weight: 800;
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-weight: 500;
+    font-size: 2.2rem;
+  }
+  .subtitle.english {
+    font-weight: 600;
+    font-size: 2.2rem;
+  }
+  .subcatchcopy {
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .subtext {
+    font-size: 1rem;
+    line-height: 22px;
+  }
+  .basi-img-top-container {
+    height: 80vw;
+  }
+
+  .basi-img-container {
+    top:-10vh;
+    height:100vw;
+    padding: 0;
+    width:110vw;
+    position: relative;
+  }
+  .basi-img {
+    background-image: url(./img/atelierbasi.png);
+    height:100vw;
+    width:auto;
+    z-index: -1;
+    right:0;
+    top:0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .program-img {
+    width: 70vw;
+  }
+  #home-third .program-img {
+    display: none;
+  }
+}

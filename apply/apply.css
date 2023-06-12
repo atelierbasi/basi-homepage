@@ -1,0 +1,138 @@
+#about-top {
+  height: 70vh;
+}
+
+#about-top > .title {
+  padding-left: 5vw;
+  z-index: 1;
+}
+
+#about-top-image {
+  background-image: url("../img/2022_apply.png");
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+#about-second {
+  background-color: #f8f8f8;
+}
+#about-third {
+  background-color: fdfdfd;
+}
+
+.mid-image {
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+}
+#map-image {
+  width: 50vw;
+  height: 50vh;
+  background-image: url("../img/日本地図.png");
+  background-position: center;
+}
+
+#school-proportion-image {
+  width: 50vw;
+  background-position: center;
+  height: 60vh;
+  background-image: url("../img/school_proportion.svg");
+}
+
+#about-forth {
+  overflow: hidden;
+  background-color: #fdfdfd;
+}
+#about-fifth {
+  background-color: #fff;
+}
+
+.cost-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: contain;
+  height: 50vh;
+  background-image: url("../img/juku.svg");
+}
+
+.slide-text {
+  position: relative;
+}
+
+#slider {
+  background-color: #5c5c5c;
+  color: white;
+}
+
+#about-sixth {
+  background-color: #f8f8f8;
+}
+.tile.is-child{
+    background-color: #FFE37D;
+    border-radius: 0.55rem;
+}
+
+.tile .subcatchcopy{
+    font-size: 1.8rem;
+    margin:0.9rem;
+}
+
+.supporter-name{
+  font-size: 1.2rem;
+}
+
+.tile{
+   padding:0.9rem;
+}
+
+
+@media screen and (max-width:480px) {
+#about-top-mobile > .title {
+  z-index: 1;
+}
+#about-top-mobile{
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  height: 70vh;
+}
+
+#about-top-image-mobile {
+  background-image: url("../img/apply.png");
+  width: 105vw;
+  height: 50vh;
+  right: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+#map-image {
+  width: 90vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  height: 50vh;
+  background-image: url("../img/日本地図.png");
+  background-position: center;
+}
+#school-proportion-image {
+  width: 90vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  background-position: center;
+  height: 60vh;
+  background-image: url("../img/school_proportion.svg");
+}
+
+
+}

@@ -1,0 +1,56 @@
+#contact-top {
+  height: 70vh;
+}
+#contact-top-mobile {
+  height: 70vh;
+  padding: 0;
+}
+
+#contact-top > .title {
+  padding-left: 5vw;
+  z-index: 1;
+}
+
+#contact-second{
+    background-color: #f8f8f8;
+}
+
+.googleform-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.googleform-wrapper > iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact-top-image {
+  background-image: url("../img/contact_top.jpg");
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+#contact-top-image-mobile {
+  background-image: url("../img/contact_top.jpg");
+  width: 100vw;
+  height: 50vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,64 @@
+#team-top {
+  height: 70vh;
+}
+#team-top-mobile {
+  height: 60vh;
+  padding:0;
+}
+
+#team-top > .title {
+  padding-left: 5vw;
+  z-index: 1;
+}
+#team-top-mobile > .title {
+  z-index: 1;
+}
+#about-top-image {
+  background-image: url("../img/team-top.jpg");
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  right: 0;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#about-top-image-mobile {
+  background-image: url("../img/team-top.jpg");
+  height: 50vh;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+#team-member{
+    background-color: #fff;
+}
+
+.card {
+    margin:5px;
+  border-radius: 15px;
+  background-color: #fdfdfd;
+}
+
+figure>img{
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.name{
+  font-size: 1.2rem;
+  font-family: "Kiwi Maru", serif;
+  background: linear-gradient(transparent 70%, #ADE090 70%);
+}
+
+.subname{
+  font-size: 1rem;
+  font-family: "Kiwi Maru", serif;
+}
